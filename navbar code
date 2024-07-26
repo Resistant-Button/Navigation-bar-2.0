@@ -1,0 +1,16 @@
+<header>
+                <a class="cta hover-effect" href="#">Бүртгэлийн хаяг</a>
+                <nav>
+                    <ul class="nav_links">
+                        <li><a class="hover-effect" href="#">Нүүр</a></li>
+                        <li><a class="hover-effect" href="Танилцуулга.html">Танилцуулга</a></li>
+                        <li><a class="hover-effect" href="#">Сонголт</a></li>
+                        <li><a class="hover-effect" href="#">Мэдээлэл</a></li>
+                        <li><a class="hover-effect" href="#">Нэвтрэх</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+//head hesegt bauh link holbolt deerrhiig body dotor bcne
+
+<link rel="stylesheet" href="navbar2.css">
