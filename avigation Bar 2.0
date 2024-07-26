@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мэдээхэн</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="navbar2.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #24252A;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 10%;
+            height: 60px;
+            background-color: #24252A;
+        }
+
+        .nav_links {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav_links li {
+            padding: 0 10px;
+        }
+
+        .nav_links li a {
+            font-family: 'Press Start 2P', cursive;
+            font-weight: 500;
+            font-size: 12px;
+            color: #edf0f1;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .nav_links li a:hover {
+            background-color: #0088a9;
+            color: white;
+        }
+
+        .cta {
+            font-family: 'Press Start 2P', cursive;
+            font-weight: 500;
+            font-size: 12px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            color: #edf0f1;
+            background-color: transparent;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .cta:hover {
+            background-color: #0088a9;
+            color: white;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 60px);
+            /* Subtract the height of the header */
+            text-align: center;
+        }
+
+        .backhead {
+            background: url('back.jpg') no-repeat center center;
+            background-size: cover;
+            height:  72rem;
+            width: 90.5%;
+            border-radius: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40%;
+        }
+
+        .backhead h1 {
+            font-size: 3rem;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px 5%;
+            }
+
+            .nav_links {
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+            }
+
+            .nav_links li {
+                width: 100%;
+                text-align: left;
+                padding: 10px 0;
+            }
+
+            .cta {
+                margin: 10px 0;
+            }
+
+            .backhead {
+                width: 100%;
+                height: auto;
+            }
+
+            .backhead h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="cta" href="#">Бүртгэлийн хаяг</a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Нүүр</a></li>
+                <li><a href="Танилцуулга.html">Танилцуулга</a></li>
+                <li><a href="#">Сонголт</a></li>
+                <li><a href="#">Мэдээлэл</a></li>
+                <li><a href="#">Нэвтрэх</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-content">
+        <div class="backhead">
+            <h1 style="font-family: 'Press Start 2P';">Мэдээ мэдээлэл</h1>
+        </div>
+    </div>
+</body>
+
+</html>
