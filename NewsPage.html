@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Mэдээ мэдээлэл</title>
+        <link rel="stylesheet" href="NewsPage.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        
+    </head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #24252A;
+        }
+        
+        li, a {
+            font-family: 'Press Start 2P', cursive;
+            font-weight: 500;
+            font-size: 12px; /* Smaller font size */
+            color: #edf0f1;
+            text-decoration: none;
+        }
+        
+        header {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 10%; /* Smaller padding */
+            height: 47.5px; /* Set the height explicitly */
+        }
+        
+        .nav_links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            height: 100%; /* Ensure it takes full height */
+        }
+        
+        .nav_links li {
+            display: inline-block;
+            padding: 0 10px; /* Smaller padding */
+        }
+        
+        .nav_links li a {
+            display: inline-block;
+            padding: 10px 15px; /* Adjusted padding */
+            transition: background-color 0.3s ease;
+            line-height: 1; /* Ensure proper vertical alignment */
+            border-radius: 5px; /* Same border-radius as .cta */
+        }
+        
+        .cta {
+            padding: 10px 15px; /* Adjusted padding to match .nav_links a */
+            border: none;
+            border-radius: 5px; /* Same border-radius as .nav_links a */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            color: #edf0f1;
+            background-color: transparent;
+            font-size: 12px; /* Smaller font size */
+            margin-right: auto; /* Pushes the element to the left */
+            text-align: center; /* Center the text */
+            display: inline-block; /* Ensure consistent display */
+        }
+        
+        .hover-effect {
+            background-color: transparent;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        .hover-effect:hover {
+            background-color: #0088a9;
+            color: white;
+        }
+    </style>
+    <body>
+        <header>
+            <a class="cta hover-effect" href="#">Бүртгэлийн хаяг</a>
+            <nav>
+                <ul class="nav_links">
+                    <li><a class="hover-effect" href="#">Нүүр</a></li>
+                    <li><a class="hover-effect" href="Танилцуулга.html">Танилцуулга</a></li>
+                    <li><a class="hover-effect" href="#">Сонголт</a></li>
+                    <li><a class="hover-effect" href="#">Мэдээлэл</a></li>
+                    <li><a class="hover-effect" href="#">Нэвтрэх</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section></section>
+        <section class="footer">
+            <div class="">
+
+            </div>
+        </section>
+    </body>
+    </html>
